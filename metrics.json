@@ -1,0 +1,29 @@
+[
+  {
+    "Method": "No DPD",
+    "NMSE_dB": -21.368033389705797,
+    "EVM_percent": 8.542762459479325,
+    "ACLR_dB": -20.27895205350424,
+    "Parameters": 0,
+    "Approx_Memory_Bytes": 0,
+    "Approx_MACs_per_sample": 0
+  },
+  {
+    "Method": "Memory Polynomial DPD",
+    "NMSE_dB": -33.78151437081856,
+    "EVM_percent": 2.0460878735115737,
+    "ACLR_dB": -19.87973791047596,
+    "Parameters": 16,
+    "Approx_Memory_Bytes": 256,
+    "Approx_MACs_per_sample": 16
+  },
+  {
+    "Method": "Hybrid AI DPD",
+    "NMSE_dB": -31.080101079698267,
+    "EVM_percent": 2.7925113439505647,
+    "ACLR_dB": -19.83788946696766,
+    "Parameters": 3234,
+    "Approx_Memory_Bytes": 13128,
+    "Approx_MACs_per_sample": 3136
+  }
+]

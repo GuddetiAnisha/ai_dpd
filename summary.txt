@@ -1,0 +1,13 @@
+AI-Enhanced DPD Prototype Results
+
+               Method    NMSE_dB  EVM_percent    ACLR_dB  Parameters  Approx_Memory_Bytes  Approx_MACs_per_sample
+               No DPD -21.368033     8.542762 -20.278952           0                    0                       0
+Memory Polynomial DPD -33.781514     2.046088 -19.879738          16                  256                      16
+        Hybrid AI DPD -31.080101     2.792511 -19.837889        3234                13128                    3136
+
+Best NMSE: Memory Polynomial DPD
+Best EVM: Memory Polynomial DPD
+Best ACLR-like metric: No DPD
+
+Lower NMSE/EVM is better; more negative ACLR-like metric is better.
+Simulation/offline prototype only.

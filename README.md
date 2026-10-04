@@ -20,7 +20,6 @@ Evaluation includes:
 - approximate memory footprint
 - approximate multiply-add cost per sample
 
-> Important: This is a simulation/offline prototype. It does not claim validation on Ericsson data, 1 GHz RF hardware, or a production radio implementation.
 
 ## Structure
 
